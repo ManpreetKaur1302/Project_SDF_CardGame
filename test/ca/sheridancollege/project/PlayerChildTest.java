@@ -45,7 +45,7 @@ public class PlayerChildTest {
 
     @Test
     public void testGetGroupOfCardsGood() {
-        System.out.println("getGroupOfCards");
+        System.out.println("getGroupOfCardsGood");
         PlayerChild instance = null;
         GroupOfCards expResult = null;
         GroupOfCards result = instance.getGroupOfCards();
@@ -55,7 +55,7 @@ public class PlayerChildTest {
     }
     @Test
     public void testGetGroupOfCardsBad() {
-        System.out.println("getGroupOfCards");
+        System.out.println("getGroupOfCardsBad");
         PlayerChild instance = null;
         GroupOfCards expResult = null;
         GroupOfCards result = instance.getGroupOfCards();
@@ -65,7 +65,7 @@ public class PlayerChildTest {
     }
     @Test
     public void testGetGroupOfCardsBoundary() {
-        System.out.println("getGroupOfCards");
+        System.out.println("getGroupOfCardsBoundary");
         PlayerChild instance = null;
         GroupOfCards expResult = null;
         GroupOfCards result = instance.getGroupOfCards();
@@ -80,7 +80,7 @@ public class PlayerChildTest {
      */
     @Test
     public void testGetTokensGood() {
-        System.out.println("getTokens");
+        System.out.println("getTokensGood");
         PlayerChild instance = null;
         int expResult = 0;
         int result = instance.getTokens();
@@ -90,7 +90,7 @@ public class PlayerChildTest {
     }
     @Test
     public void testGetTokensBad() {
-        System.out.println("getTokens");
+        System.out.println("getTokensBad");
         PlayerChild instance = null;
         int expResult = 0;
         int result = instance.getTokens();
@@ -100,7 +100,7 @@ public class PlayerChildTest {
     }
     @Test
     public void testGetTokensBoundary() {
-        System.out.println("getTokens");
+        System.out.println("getTokensBoundary");
         PlayerChild instance = null;
         int expResult = 0;
         int result = instance.getTokens();
@@ -116,7 +116,7 @@ public class PlayerChildTest {
      */
     @Test
     public void testPlayGood() {
-        System.out.println("play");
+        System.out.println("playGood");
         Card obj = null;
         PlayerChild instance = null;
         boolean expResult = false;
@@ -127,7 +127,7 @@ public class PlayerChildTest {
     }
     @Test
     public void testPlayBad() {
-        System.out.println("play");
+        System.out.println("playBad");
         Card obj = null;
         PlayerChild instance = null;
         boolean expResult = false;
@@ -138,7 +138,7 @@ public class PlayerChildTest {
     }
     @Test
     public void testPlayBoundary() {
-        System.out.println("play");
+        System.out.println("playBoundary");
         Card obj = null;
         PlayerChild instance = null;
         boolean expResult = false;

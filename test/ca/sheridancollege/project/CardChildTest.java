@@ -42,7 +42,7 @@ public class CardChildTest {
      */
     @Test
     public void testGetCardValueGood() {
-        System.out.println("getCardValue");
+        System.out.println("getCardValueGood");
         CardChild instance = null;
         int expResult = 0;
         int result = instance.getCardValue();
@@ -52,7 +52,7 @@ public class CardChildTest {
     }
         @Test
     public void testGetCardValueBad() {
-        System.out.println("getCardValue");
+        System.out.println("getCardValueBad");
         CardChild instance = null;
         int expResult = 0;
         int result = instance.getCardValue();
@@ -62,7 +62,7 @@ public class CardChildTest {
     }
         @Test
     public void testGetCardValueBoundary() {
-        System.out.println("getCardValue");
+        System.out.println("getCardValueBoundary");
         CardChild instance = null;
         int expResult = 0;
         int result = instance.getCardValue();
@@ -78,7 +78,7 @@ public class CardChildTest {
      */
     @Test
     public void testSetCardValueGood() {
-        System.out.println("setCardValue");
+        System.out.println("setCardValueGood");
         int value = 0;
         CardChild instance = null;
         instance.setCardValue(value);
@@ -87,7 +87,7 @@ public class CardChildTest {
     }
         @Test
     public void testSetCardValueBad() {
-        System.out.println("setCardValue");
+        System.out.println("setCardValueBad");
         int value = 0;
         CardChild instance = null;
         instance.setCardValue(value);
@@ -96,7 +96,7 @@ public class CardChildTest {
     }
     @Test
     public void testSetCardValueBoundary() {
-        System.out.println("setCardValue");
+        System.out.println("setCardValueBoundary");
         int value = 0;
         CardChild instance = null;
         instance.setCardValue(value);

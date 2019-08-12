@@ -23,7 +23,20 @@ public class GroupOfCards
     
     public GroupOfCards(int givenSize)
     {
+        cards = new ArrayList<>();
         size = givenSize;
+    }
+    
+    public void setCards(ArrayList<Card> cards){
+        this.cards = cards;
+    }
+    
+    public void addCard(Card obj){
+        cards.add(obj);
+    }
+    
+    public void removeCard(Card obj){
+        cards.remove(obj);
     }
     
     /**
@@ -52,6 +65,14 @@ public class GroupOfCards
      */
     public void setSize(int givenSize) {
         size = givenSize;
+    }
+    
+    public String toString(){
+        String output = "";
+        for(int i = 0; i < getSize(); i++){
+            output += cards.get(i).toString() + "\n";
+        }
+        return output;
     }
     
 }//end class

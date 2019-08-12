@@ -22,6 +22,10 @@ public abstract class Player
         playerID= name;
     }
     
+    public Player(){
+        this.playerID = "";
+    };
+    
     /**
      * @return the playerID
      */
@@ -43,6 +47,6 @@ public abstract class Player
      * The method to be instantiated when you subclass the Player class
      * with your specific type of Player and filled in with logic to play your game.
      */
-    public abstract void play();
+    public abstract boolean play(Card obj);
     
 }

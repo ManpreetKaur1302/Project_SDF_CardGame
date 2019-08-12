@@ -71,38 +71,7 @@ public class CardChildTest {
         //fail("The test case is a prototype.");
     }
 
-    
-    
-    /**
-     * Test of setCardValue method, of class CardChild.
-     */
-    @Test
-    public void testSetCardValueGood() {
-        System.out.println("setCardValueGood");
-        int value = 0;
-        CardChild instance = null;
-        instance.setCardValue(value);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-        @Test
-    public void testSetCardValueBad() {
-        System.out.println("setCardValueBad");
-        int value = 0;
-        CardChild instance = null;
-        instance.setCardValue(value);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-    @Test
-    public void testSetCardValueBoundary() {
-        System.out.println("setCardValueBoundary");
-        int value = 0;
-        CardChild instance = null;
-        instance.setCardValue(value);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
+
     
 
 }

@@ -7,10 +7,6 @@ import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- *
- * @author manni
- */
 public class NoThanks extends Game{
     private Scanner input = new Scanner(System.in);
     private GroupOfCards deck = new GroupOfCards(32);

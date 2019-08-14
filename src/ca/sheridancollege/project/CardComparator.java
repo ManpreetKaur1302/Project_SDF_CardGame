@@ -3,10 +3,6 @@ package ca.sheridancollege.project;
 
 import java.util.Comparator;
 
-/**
- *
- * @author manni
- */
 public class CardComparator implements Comparator{
     public int compare(Object o1, Object o2){
         CardChild card1 = (CardChild)o1;

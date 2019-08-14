@@ -1,10 +1,6 @@
 
 package ca.sheridancollege.project;
 
-/**
- *
- * @author manni
- */
 public class MainApplication {
 
     public static void main(String[] args) {

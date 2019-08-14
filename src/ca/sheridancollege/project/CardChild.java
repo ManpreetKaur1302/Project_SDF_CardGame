@@ -5,10 +5,6 @@
  */
 package ca.sheridancollege.project;
 
-/**
- *
- * @author manni
- */
 public class CardChild extends Card{
     
     public CardChild(int value){

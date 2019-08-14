@@ -12,62 +12,58 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Owner
- */
 public class CardChildTest {
-    
-    public CardChildTest() {
-    }
-    
+
     @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
+    public static void setUpClass() throws Exception {
     }
 
-    /**
+    @AfterClass
+    public static void tearDownClass() throws Exception {
+    }
+
+    @Before
+    public void setUp() throws Exception {
+    }
+
+    @After
+    public void tearDown() throws Exception {
+    }
+
+     /**
      * Test of getCardValue method, of class CardChild.
      */
     @Test
     public void testGetCardValueGood() {
         System.out.println("getCardValueGood");
-        CardChild instance = null;
-        int expResult = 0;
+        CardChild instance = new CardChild(4);
+        boolean expResult = true;
         int result = instance.getCardValue();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        // TODO review the generated test code 
+        //and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
         @Test
     public void testGetCardValueBad() {
         System.out.println("getCardValueBad");
-        CardChild instance = null;
-        int expResult = 0;
+        CardChild instance = new CardChild(2);
+        boolean expResult = false;
         int result = instance.getCardValue();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        // TODO review the generated test code 
+        //and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
         @Test
     public void testGetCardValueBoundary() {
         System.out.println("getCardValueBoundary");
-        CardChild instance = null;
-        int expResult = 0;
+        CardChild instance = new CardChild(3);
+        boolean expResult = true;
         int result = instance.getCardValue();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        // TODO review the generated test code 
+        //and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
 
